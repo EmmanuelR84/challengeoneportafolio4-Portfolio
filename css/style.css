@@ -555,6 +555,11 @@ Utiliza las referencias de los breakpoints @media abajo */
     .experience__title {
         height: auto;
     }
+
+/*Footer*/
+    section.footer{
+        font-size: var(--md);
+    }
 }
 
 /*Mobile*/
