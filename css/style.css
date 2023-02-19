@@ -497,6 +497,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         justify-content: space-between;
     }
 
+    .menu__list__item__contato {
+        margin-right: 1rem;
+    }
+
 /*title*/
     .title__div {
         display: flex;
@@ -539,9 +543,18 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
 /*Formación Académica*/
+    .academic__courses {
+        flex-direction: row;
+    }
+
+    h4, p {
+        margin: .2rem;
+    }
 
 /*Experiencia Profesional*/
-
+    .experience__title {
+        height: auto;
+    }
 }
 
 /*Mobile*/
