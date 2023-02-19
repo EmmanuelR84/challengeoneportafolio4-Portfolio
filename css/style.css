@@ -490,15 +490,53 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (min-width:768px) and (max-width: 992px) {
 
 /* Menú */
+    .menu {
+        justify-content: space-between;
+    }
 
 /*title*/
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .title__profile {
+        width: 20%;
+    }
+
+    .title__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title__bio{
+        margin: 0;
+    }
+
+    .title__network__item {
+        margin-right: 4rem;
+    }
 /*Skills*/
+    .skills__box {
+        margin: 1.25rem;
+        min-width: 200px;
+    }
 
 /*Hobbies*/
+    .hobbies__title {
+        margin: 3.5rem 0 1.25rem 0;
+    }
+
+    .hobbies__box {
+        margin: 1.25rem;
+        min-width: 200px;
+    }
 
 /*Formación Académica*/
 
@@ -507,7 +545,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 769px) {
 
 /*Menu*/
 
